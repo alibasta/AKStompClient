@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/AKStompClient.svg?style=flat)](http://cocoapods.org/pods/AKStompClient)
 [![Platform](https://img.shields.io/cocoapods/p/AKStompClient.svg?style=flat)](http://cocoapods.org/pods/AKStompClient)
 
+## About
+
+AKStompClient is a STOMP Websocket client written in Swift using SocketRocket to communicate over WebSocket. At the moment I only support sending and receiving JSON data.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
