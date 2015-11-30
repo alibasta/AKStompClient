@@ -1,0 +1,6 @@
+framework module AKStompClient {
+  umbrella header "AKStompClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

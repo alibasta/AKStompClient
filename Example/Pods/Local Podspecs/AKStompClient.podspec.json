@@ -1,0 +1,25 @@
+{
+  "name": "AKStompClient",
+  "version": "0.1.0",
+  "summary": "A short description of AKStompClient.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AKStompClient",
+  "license": "MIT",
+  "authors": {
+    "Alexander Köhn": "ak@newscope.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AKStompClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AKStompClient": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

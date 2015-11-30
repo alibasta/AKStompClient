@@ -20,6 +20,42 @@ it, simply add the following line to your Podfile:
 pod "AKStompClient"
 ```
 
+## How to use
+
+**Connect to the server:**
+
+Use the *AKStompClientDelegate* delegate in your class.
+
+```swift
+socketClient = AKStompClient()
+
+socketClient!.openSocketWithURLRequest(NSURLRequest(URL: serverURL()), delegate: self, connectionHeaders: ["clientType": "REMOTE", "authkey": "n/a", "qrCode": qrCode])
+```
+
+**Delegate callbacks**
+
+The most interesting delegate callbacks are the *func stompClientDidConnect(client: AKStompClient!)* and the *func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody jsonBody: AnyObject?, withHeader header:[String:String]?, withDestination destination: String)* callbacks. 
+
+In the *func stompClientDidConnect(client: AKStompClient!)* we subscribe to our destination(s): 
+
+```swift
+func stompClientDidConnect(client: AKStompClient!) {
+client.subscribeToDestination("/topic/helloworld")
+}
+```
+
+In the *func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody jsonBody: AnyObject?, withHeader header:[String:String]?, withDestination destination: String)* we are waiting for messages:
+
+```swift
+func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody jsonBody: AnyObject?, withHeader header:[String:String]?, withDestination destination: String) {
+if destionation == "the-destination-im-waiting-for" {
+if let jsonBody = jsonBody as? NSDictionary {
+print("\(jsonBody)")
+}
+}
+}
+```
+
 ## Author
 
 Alexander Köhn, ak@newscope.com

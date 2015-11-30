@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080B058467CF54BC1AFB32FD37A53C5D /* Pods-AKStompClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 574309DC6E1667A4B090552C9576BFDF /* Pods-AKStompClient_Tests-dummy.m */; };
+		0F849DC6C12D582108C25211BF5734A6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157867EB2E005729422D974D18130B3 /* ReplaceMe.swift */; };
+		1336B7F9BF7810AD8C5636F58447852B /* Pods-AKStompClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D3804D7268C17AD1A1A85D40B143FE /* Pods-AKStompClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14870CBB08B56CB1BE5AA5B3B9B1864C /* Pods-AKStompClient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6192D959FB31390F88839A0AA76DF01 /* Pods-AKStompClient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AC9EFB92446316B3B1ABB910E4DEE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8ABB111AA5705BDA5374CFA456CDD324 /* AKStompClient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50AC3A755C64158EE084FE99C25CC95C /* AKStompClient.bundle */; };
+		C70CB336335C7C7F9B5C954CBE2A732B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CDE1FDA7F21542F75473B8AA5BD5AA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D3A5F7570BB3B6F83CCE3524465991A1 /* Pods-AKStompClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE0519250881C78970F86B1E5B5738 /* Pods-AKStompClient_Example-dummy.m */; };
+		FB9AF14ABFDC2AD2BB4AB4F747AAA107 /* AKStompClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567FB53F738B6D47226C234EF0A87BAD /* AKStompClient-dummy.m */; };
+		FEBE62B8114FD1F4A4CF090617499B05 /* AKStompClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9154F4A3749C4F3FD6CE03AD9970EE83 /* AKStompClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2724D04384E78C165F609062C4740F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D1CAE3A516E10B5D4EEA4A47C7BBAF;
+			remoteInfo = AKStompClient;
+		};
+		99018534083923A592A9799033F9356F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D1CAE3A516E10B5D4EEA4A47C7BBAF;
+			remoteInfo = AKStompClient;
+		};
+		9E913AFC58D8300B6B2F3EDB5AE0B8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D2C7951C894460A5560FB52BC2DF35;
+			remoteInfo = "AKStompClient-AKStompClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0261DFE6AF3CD10C0F1A43917182E6E2 /* Pods-AKStompClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKStompClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKStompClient.xcconfig; sourceTree = "<group>"; };
+		228EF0936D02814FC9FF4315C9EA8AC2 /* Pods-AKStompClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKStompClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23F93838D09452269A684173648E63C7 /* Pods-AKStompClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKStompClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28AFE36683279F1FAA1D5520D28D77CF /* Pods-AKStompClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKStompClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B48FA2014B2E16123D8470781FDDFE2 /* Pods-AKStompClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKStompClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A7A16DE7EBC1598EA73E2F31F7420CC /* Pods-AKStompClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKStompClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9B72BB13A73B554DB0F0A409F16B4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC3A755C64158EE084FE99C25CC95C /* AKStompClient.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKStompClient.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		567FB53F738B6D47226C234EF0A87BAD /* AKStompClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKStompClient-dummy.m"; sourceTree = "<group>"; };
+		574309DC6E1667A4B090552C9576BFDF /* Pods-AKStompClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKStompClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		5DC1835A72519693CDAA8EF17758A99B /* Pods-AKStompClient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKStompClient_Example.modulemap"; sourceTree = "<group>"; };
+		63CC1327E787C220ABF43C88CC44F57E /* Pods-AKStompClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKStompClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6740FDEF664BD357466FFA021F9953B2 /* Pods_AKStompClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKStompClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6800F06995A53EFEDF363656B6C74E03 /* Pods-AKStompClient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKStompClient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F5E15F62A7BF5CED4A77C38693A0C36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752F9DCE59985B054EE91C4D8F02D212 /* AKStompClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKStompClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AD64946A7E5C43446B4D3BDA5117C5 /* Pods-AKStompClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKStompClient_Tests.modulemap"; sourceTree = "<group>"; };
+		7E7025357BB5F6292D5BAA01D1670177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D3804D7268C17AD1A1A85D40B143FE /* Pods-AKStompClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKStompClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		88DE724626824F5BF8202F19BC3AEECC /* Pods-AKStompClient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKStompClient_Example-resources.sh"; sourceTree = "<group>"; };
+		9154F4A3749C4F3FD6CE03AD9970EE83 /* AKStompClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKStompClient-umbrella.h"; sourceTree = "<group>"; };
+		A87BE7E39D0D717883805CA69B86279C /* Pods-AKStompClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKStompClient_Tests-resources.sh"; sourceTree = "<group>"; };
+		AE38D4E451B5EC6FAC8D22AB7EC4F86D /* Pods-AKStompClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKStompClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6C0079B8DE3C3CDFCF0E0E17B1A24D5 /* Pods_AKStompClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKStompClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA849D49C0EF476BCAB5E8217754238E /* AKStompClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKStompClient-prefix.pch"; sourceTree = "<group>"; };
+		D157867EB2E005729422D974D18130B3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E4D8D1F9989CD6C991BAAD68BE681D69 /* Pods-AKStompClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKStompClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F31A313F380B144DCE44B1365B8CE11F /* AKStompClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AKStompClient.modulemap; sourceTree = "<group>"; };
+		F6192D959FB31390F88839A0AA76DF01 /* Pods-AKStompClient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKStompClient_Example-umbrella.h"; sourceTree = "<group>"; };
+		FEEE0519250881C78970F86B1E5B5738 /* Pods-AKStompClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKStompClient_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07329D863E2AD3B7CA83F5F5E2E4CE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE1FDA7F21542F75473B8AA5BD5AA46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698D6BF9A4C8542E09B3041C3E484CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70CB336335C7C7F9B5C954CBE2A732B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71648A2765A13669FF2C89F190F22CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9EFB92446316B3B1ABB910E4DEE2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF9AD23CF72916757C899942F8B6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B87201D17E5591B03BAF2129C1B65F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E748A43273C3E5E6D26D44F526B604F9 /* Pods-AKStompClient_Example */,
+				F24EC763837C58AFE09E665A0467829D /* Pods-AKStompClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		419D853E64F01A0182D52CBF26E8CC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AC3A755C64158EE084FE99C25CC95C /* AKStompClient.bundle */,
+				752F9DCE59985B054EE91C4D8F02D212 /* AKStompClient.framework */,
+				6740FDEF664BD357466FFA021F9953B2 /* Pods_AKStompClient_Example.framework */,
+				B6C0079B8DE3C3CDFCF0E0E17B1A24D5 /* Pods_AKStompClient_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D527B63D3E0CF4E2637366B3B78E014 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D157867EB2E005729422D974D18130B3 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E73680B80FB91BA64F5C5EE6AF7C5B0D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				419D853E64F01A0182D52CBF26E8CC1F /* Products */,
+				04B87201D17E5591B03BAF2129C1B65F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFED2F783AEFACDED66B1F7C22A9B21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31A313F380B144DCE44B1365B8CE11F /* AKStompClient.modulemap */,
+				1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */,
+				567FB53F738B6D47226C234EF0A87BAD /* AKStompClient-dummy.m */,
+				CA849D49C0EF476BCAB5E8217754238E /* AKStompClient-prefix.pch */,
+				9154F4A3749C4F3FD6CE03AD9970EE83 /* AKStompClient-umbrella.h */,
+				6F5E15F62A7BF5CED4A77C38693A0C36 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKStompClient";
+			sourceTree = "<group>";
+		};
+		A257DB2D540366FD53F83677F83227C1 /* AKStompClient */ = {
+			isa = PBXGroup;
+			children = (
+				FEBF4B26C56B0CFF535A06A39E828BDB /* Pod */,
+				9EFED2F783AEFACDED66B1F7C22A9B21 /* Support Files */,
+			);
+			name = AKStompClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E73680B80FB91BA64F5C5EE6AF7C5B0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A257DB2D540366FD53F83677F83227C1 /* AKStompClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E748A43273C3E5E6D26D44F526B604F9 /* Pods-AKStompClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C9B72BB13A73B554DB0F0A409F16B4A /* Info.plist */,
+				5DC1835A72519693CDAA8EF17758A99B /* Pods-AKStompClient_Example.modulemap */,
+				AE38D4E451B5EC6FAC8D22AB7EC4F86D /* Pods-AKStompClient_Example-acknowledgements.markdown */,
+				3B48FA2014B2E16123D8470781FDDFE2 /* Pods-AKStompClient_Example-acknowledgements.plist */,
+				FEEE0519250881C78970F86B1E5B5738 /* Pods-AKStompClient_Example-dummy.m */,
+				6800F06995A53EFEDF363656B6C74E03 /* Pods-AKStompClient_Example-frameworks.sh */,
+				88DE724626824F5BF8202F19BC3AEECC /* Pods-AKStompClient_Example-resources.sh */,
+				F6192D959FB31390F88839A0AA76DF01 /* Pods-AKStompClient_Example-umbrella.h */,
+				4A7A16DE7EBC1598EA73E2F31F7420CC /* Pods-AKStompClient_Example.debug.xcconfig */,
+				63CC1327E787C220ABF43C88CC44F57E /* Pods-AKStompClient_Example.release.xcconfig */,
+			);
+			name = "Pods-AKStompClient_Example";
+			path = "Target Support Files/Pods-AKStompClient_Example";
+			sourceTree = "<group>";
+		};
+		F24EC763837C58AFE09E665A0467829D /* Pods-AKStompClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7025357BB5F6292D5BAA01D1670177 /* Info.plist */,
+				78AD64946A7E5C43446B4D3BDA5117C5 /* Pods-AKStompClient_Tests.modulemap */,
+				23F93838D09452269A684173648E63C7 /* Pods-AKStompClient_Tests-acknowledgements.markdown */,
+				E4D8D1F9989CD6C991BAAD68BE681D69 /* Pods-AKStompClient_Tests-acknowledgements.plist */,
+				574309DC6E1667A4B090552C9576BFDF /* Pods-AKStompClient_Tests-dummy.m */,
+				28AFE36683279F1FAA1D5520D28D77CF /* Pods-AKStompClient_Tests-frameworks.sh */,
+				A87BE7E39D0D717883805CA69B86279C /* Pods-AKStompClient_Tests-resources.sh */,
+				86D3804D7268C17AD1A1A85D40B143FE /* Pods-AKStompClient_Tests-umbrella.h */,
+				0261DFE6AF3CD10C0F1A43917182E6E2 /* Pods-AKStompClient_Tests.debug.xcconfig */,
+				228EF0936D02814FC9FF4315C9EA8AC2 /* Pods-AKStompClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-AKStompClient_Tests";
+			path = "Target Support Files/Pods-AKStompClient_Tests";
+			sourceTree = "<group>";
+		};
+		FEBF4B26C56B0CFF535A06A39E828BDB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D527B63D3E0CF4E2637366B3B78E014 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EEB8BE2EC43E3B2E5970CC1B5018F12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14870CBB08B56CB1BE5AA5B3B9B1864C /* Pods-AKStompClient_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A211C17939C3871BB7FABAB27FB5D75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1336B7F9BF7810AD8C5636F58447852B /* Pods-AKStompClient_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394600667299689E5C90B0C5AEFF9A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBE62B8114FD1F4A4CF090617499B05 /* AKStompClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		039D10AF84B2E1470B2C3A4DCC9BCE99 /* Pods-AKStompClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C8D2F6C281A13B7B6A1D7C65E29A00 /* Build configuration list for PBXNativeTarget "Pods-AKStompClient_Tests" */;
+			buildPhases = (
+				7B4D927133776929277886D9A514A3A4 /* Sources */,
+				698D6BF9A4C8542E09B3041C3E484CB6 /* Frameworks */,
+				2A211C17939C3871BB7FABAB27FB5D75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CD3ED729214187A7F12C9DAAA27D1B /* PBXTargetDependency */,
+			);
+			name = "Pods-AKStompClient_Tests";
+			productName = "Pods-AKStompClient_Tests";
+			productReference = B6C0079B8DE3C3CDFCF0E0E17B1A24D5 /* Pods_AKStompClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58D1CAE3A516E10B5D4EEA4A47C7BBAF /* AKStompClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DB0ADC2C777D1B602150B5D9DA30DC /* Build configuration list for PBXNativeTarget "AKStompClient" */;
+			buildPhases = (
+				6841CA968CA61E523DE0B39D3A193FB1 /* Sources */,
+				07329D863E2AD3B7CA83F5F5E2E4CE62 /* Frameworks */,
+				0CFBC72E451386FD64E7B7CB15D2019A /* Resources */,
+				394600667299689E5C90B0C5AEFF9A9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A9A9F1368C10BB45347A6E38CA246D /* PBXTargetDependency */,
+			);
+			name = AKStompClient;
+			productName = AKStompClient;
+			productReference = 752F9DCE59985B054EE91C4D8F02D212 /* AKStompClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B20960FB9C0570448964724A4DD4DD66 /* Pods-AKStompClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5E85B8567D98C673C4FF7B00C22212 /* Build configuration list for PBXNativeTarget "Pods-AKStompClient_Example" */;
+			buildPhases = (
+				F57D4260542FEFFF0A155F09B7ECB535 /* Sources */,
+				71648A2765A13669FF2C89F190F22CA0 /* Frameworks */,
+				1EEB8BE2EC43E3B2E5970CC1B5018F12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CC721D82A53AC7456E1318802E185F /* PBXTargetDependency */,
+			);
+			name = "Pods-AKStompClient_Example";
+			productName = "Pods-AKStompClient_Example";
+			productReference = 6740FDEF664BD357466FFA021F9953B2 /* Pods_AKStompClient_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4D2C7951C894460A5560FB52BC2DF35 /* AKStompClient-AKStompClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FA1B05068CC05942DC83BB8F7BB8A /* Build configuration list for PBXNativeTarget "AKStompClient-AKStompClient" */;
+			buildPhases = (
+				BACF89B82413932D636A2E24937ED456 /* Sources */,
+				E0DF9AD23CF72916757C899942F8B6C5 /* Frameworks */,
+				1C6E970E4D5DFA6F84242E948DC0EB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKStompClient-AKStompClient";
+			productName = "AKStompClient-AKStompClient";
+			productReference = 50AC3A755C64158EE084FE99C25CC95C /* AKStompClient.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 419D853E64F01A0182D52CBF26E8CC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D1CAE3A516E10B5D4EEA4A47C7BBAF /* AKStompClient */,
+				D4D2C7951C894460A5560FB52BC2DF35 /* AKStompClient-AKStompClient */,
+				B20960FB9C0570448964724A4DD4DD66 /* Pods-AKStompClient_Example */,
+				039D10AF84B2E1470B2C3A4DCC9BCE99 /* Pods-AKStompClient_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFBC72E451386FD64E7B7CB15D2019A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABB111AA5705BDA5374CFA456CDD324 /* AKStompClient.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6E970E4D5DFA6F84242E948DC0EB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6841CA968CA61E523DE0B39D3A193FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9AF14ABFDC2AD2BB4AB4F747AAA107 /* AKStompClient-dummy.m in Sources */,
+				0F849DC6C12D582108C25211BF5734A6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4D927133776929277886D9A514A3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080B058467CF54BC1AFB32FD37A53C5D /* Pods-AKStompClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACF89B82413932D636A2E24937ED456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57D4260542FEFFF0A155F09B7ECB535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A5F7570BB3B6F83CCE3524465991A1 /* Pods-AKStompClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A9A9F1368C10BB45347A6E38CA246D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AKStompClient-AKStompClient";
+			target = D4D2C7951C894460A5560FB52BC2DF35 /* AKStompClient-AKStompClient */;
+			targetProxy = 9E913AFC58D8300B6B2F3EDB5AE0B8AA /* PBXContainerItemProxy */;
+		};
+		46CC721D82A53AC7456E1318802E185F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKStompClient;
+			target = 58D1CAE3A516E10B5D4EEA4A47C7BBAF /* AKStompClient */;
+			targetProxy = 2724D04384E78C165F609062C4740F3F /* PBXContainerItemProxy */;
+		};
+		92CD3ED729214187A7F12C9DAAA27D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKStompClient;
+			target = 58D1CAE3A516E10B5D4EEA4A47C7BBAF /* AKStompClient */;
+			targetProxy = 99018534083923A592A9799033F9356F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04556A904B1D872C8CC8E0FFCDC389E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CC1327E787C220ABF43C88CC44F57E /* Pods-AKStompClient_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKStompClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKStompClient_Example/Pods-AKStompClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AKStompClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0999F173A13B1E9533D4FBEAD05AD2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228EF0936D02814FC9FF4315C9EA8AC2 /* Pods-AKStompClient_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKStompClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKStompClient_Tests/Pods-AKStompClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AKStompClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		807CAFF9B27D68CBF3F5CF5360954EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0261DFE6AF3CD10C0F1A43917182E6E2 /* Pods-AKStompClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKStompClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKStompClient_Tests/Pods-AKStompClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AKStompClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94320801D4DD9725C4D4AE95C7F638F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AKStompClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A478DBA1845B5CCF64E810BDBDA9466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AKStompClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B5E3FD31BCC608C957C9383F36429D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKStompClient/AKStompClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKStompClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKStompClient/AKStompClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AKStompClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC776C613AD430F869CDDF3780B32EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002C0860B209C9DC662AFAD981E04DB /* AKStompClient.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKStompClient/AKStompClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKStompClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKStompClient/AKStompClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AKStompClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E573B9F4E45FC9F80A00EF56F5E33A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7A16DE7EBC1598EA73E2F31F7420CC /* Pods-AKStompClient_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKStompClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKStompClient_Example/Pods-AKStompClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AKStompClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5E85B8567D98C673C4FF7B00C22212 /* Build configuration list for PBXNativeTarget "Pods-AKStompClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E573B9F4E45FC9F80A00EF56F5E33A02 /* Debug */,
+				04556A904B1D872C8CC8E0FFCDC389E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2FA1B05068CC05942DC83BB8F7BB8A /* Build configuration list for PBXNativeTarget "AKStompClient-AKStompClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94320801D4DD9725C4D4AE95C7F638F0 /* Debug */,
+				A478DBA1845B5CCF64E810BDBDA9466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DB0ADC2C777D1B602150B5D9DA30DC /* Build configuration list for PBXNativeTarget "AKStompClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E3FD31BCC608C957C9383F36429D88 /* Debug */,
+				CC776C613AD430F869CDDF3780B32EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C8D2F6C281A13B7B6A1D7C65E29A00 /* Build configuration list for PBXNativeTarget "Pods-AKStompClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807CAFF9B27D68CBF3F5CF5360954EB4 /* Debug */,
+				0999F173A13B1E9533D4FBEAD05AD2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

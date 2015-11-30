@@ -1,0 +1,14 @@
+PODS:
+  - AKStompClient (0.1.0)
+
+DEPENDENCIES:
+  - AKStompClient (from `../`)
+
+EXTERNAL SOURCES:
+  AKStompClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AKStompClient: 3dbf741ed48d94c1262450f7c3d86fe09ef7c35c
+
+COCOAPODS: 0.39.0
