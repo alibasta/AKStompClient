@@ -40,7 +40,7 @@ In the *func stompClientDidConnect(client: AKStompClient!)* we subscribe to our 
 
 ```swift
 func stompClientDidConnect(client: AKStompClient!) {
-client.subscribeToDestination("/topic/helloworld")
+    client.subscribeToDestination("/topic/helloworld")
 }
 ```
 
@@ -48,11 +48,11 @@ In the *func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody j
 
 ```swift
 func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody jsonBody: AnyObject?, withHeader header:[String:String]?, withDestination destination: String) {
-if destionation == "the-destination-im-waiting-for" {
-if let jsonBody = jsonBody as? NSDictionary {
-print("\(jsonBody)")
-}
-}
+    if destionation == "the-destination-im-waiting-for" {
+        if let jsonBody = jsonBody as? NSDictionary {
+            print("\(jsonBody)")
+        }
+    }
 }
 ```
 
