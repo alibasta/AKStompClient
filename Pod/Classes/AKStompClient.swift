@@ -135,9 +135,9 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
                         if line == "" {
                             hasHeaders = true
                         } else {
-                            let parts = line.componentsSeparatedByString("\n")
+                            let parts = line.componentsSeparatedByString(":")
                             if let key = parts.first {
-                                headers[key] = parts.joinWithSeparator(":")
+                                headers[key] = parts.last
                             }
                         }
                     }
@@ -233,8 +233,8 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
     
     private func destinationFromHeader(header: [String: String]) -> String {
         for (key, _) in header {
-            if key.hasPrefix("destination:") {
-                let destination = key.stringByReplacingOccurrencesOfString("destination:", withString: "")
+            if key == "destination" {
+                let destination = header[key]!
                 return destination
             }
         }
@@ -270,10 +270,14 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
         } else if command == StompCommands.responseFrameMessage {
             // Resonse
 
-            if let delegate = delegate {
-                dispatch_async(dispatch_get_main_queue(),{
-                    delegate.stompClient(self, didReceiveMessageWithJSONBody: self.dictForJSONString(body), withHeader: headers, withDestination: self.destinationFromHeader(headers))
-                })
+            if headers["content-type"]?.lowercaseString.rangeOfString("application/json") != nil {
+                if let delegate = delegate {
+                    dispatch_async(dispatch_get_main_queue(),{
+                        delegate.stompClient(self, didReceiveMessageWithJSONBody: self.dictForJSONString(body), withHeader: headers, withDestination: self.destinationFromHeader(headers))
+                    })
+                }
+            } else {
+                // TODO: send binary data back
             }
         } else if command == StompCommands.responseFrameReceipt {
             // Receipt
