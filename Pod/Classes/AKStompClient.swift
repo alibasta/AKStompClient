@@ -69,6 +69,7 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
     var sessionId: String?
     var delegate: AKStompClientDelegate?
     var connectionHeaders: [String: String]?
+    var certificateCheckEnabled = true
     
     private var urlRequest: NSURLRequest?
     
@@ -98,7 +99,12 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
     
     private func openSocket() {
         if socket == nil || socket?.readyState == .CLOSED {
-            self.socket = SRWebSocket(URLRequest: urlRequest)
+            if certificateCheckEnabled == true {
+                self.socket = SRWebSocket(URLRequest: urlRequest)
+            } else {
+                self.socket = SRWebSocket(URLRequest: urlRequest, protocols: [], allowsUntrustedSSLCertificates: true)
+            }
+
             socket!.delegate = self
             socket!.open()
         }
