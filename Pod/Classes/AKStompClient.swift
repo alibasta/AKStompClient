@@ -69,7 +69,7 @@ public class AKStompClient: NSObject, SRWebSocketDelegate {
     var sessionId: String?
     var delegate: AKStompClientDelegate?
     var connectionHeaders: [String: String]?
-    var certificateCheckEnabled = true
+    public var certificateCheckEnabled = true
     
     private var urlRequest: NSURLRequest?
     
