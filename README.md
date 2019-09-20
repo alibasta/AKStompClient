@@ -62,7 +62,7 @@ func stompClient(client: AKStompClient!, didReceiveMessageWithJSONBody jsonBody:
 
 ## Author
 
-Alexander Köhn, ak@newscope.com
+Alexander Köhn, ak@nuuk.de
 
 ## License
 
